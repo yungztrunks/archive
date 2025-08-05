@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  copyparty:
+    user: "1000"
+    image: copyparty/ac
+    ports:
+      - "3923:3923"
+    volumes:
+      - ./copyparty.conf:/cfg/copyparty.conf:ro
+      - /datapath:/w # Replace /datapath with the actual path on your hostmachine where the volume will mount to; in my example /home/yungztrunks/data
