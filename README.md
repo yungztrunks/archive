@@ -1,4 +1,4 @@
-# archived
+# archive
 
 ready to use copyparty conf & compose
 
