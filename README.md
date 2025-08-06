@@ -19,6 +19,9 @@ i generally use [coolify](https://github.com/coollabsio/coolify) for all my proj
 it's free and easy to use.
 it has docker integrated (it's not necessary tho!)
 
+other tools such as dokploy, netfliy, vercel & more will work just as good !
+it's just important to preserve the git repo after building (step 4 below); not sure how those work in dokploy & the lot
+
 once you got coolify installed do this:
 
 1. fork this repo privately
